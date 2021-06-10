@@ -1,0 +1,61 @@
+-- Marketing Paid Searches and Social Media
+
+-- Large Group-Paid Search
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE document_number = 10445
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE document_number = 10445
+
+-- KPIF-Paid Search
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE document_number = 32431
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE document_number = 32431
+
+-- Medicare-Paid Search
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE document_number = 12566
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE document_number = 12566
+
+-- Branding-Paid Search
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE document_number = 87654
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE document_number = 87654
+
+-- SBU-Paid Search
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE document_number = 67524
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE document_number = 67524
+
+-- Branding-Social Media
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE document_number = 54211
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE document_number = 54211

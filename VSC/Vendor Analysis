@@ -1,0 +1,71 @@
+-- Vendor Analysis
+
+-- Ads180
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE vendor_name = 'Ads180'
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE vendor_name = 'Ads180'
+
+-- AlphaBeta
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE vendor_name = 'AlphaBeta'
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE vendor_name = 'AlphaBeta'
+
+-- Baja Vista
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE vendor_name = 'Baja Vista'
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE vendor_name = 'Baja Vista'
+
+-- Googly Ads
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE vendor_name = 'Googly Ads'
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE vendor_name = 'Googly Ads'
+
+-- QuadrupleClick
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE vendor_name = 'QuadrupleClick'
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE vendor_name = 'QuadrupleClick'
+
+-- Spacebook
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE vendor_name = 'Spacebook'
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE vendor_name = 'Spacebook'
+
+-- Zing
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE vendor_name = 'Zing'
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE vendor_name = 'Zing'

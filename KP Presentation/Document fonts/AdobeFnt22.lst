@@ -1,0 +1,63 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/Tyler/Desktop/Kaiser Permanente Business Case/KP Presentation/Document fonts/AdobeFnt22.lst
+FileLength:1389
+FileModTime:643044354
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-Book
+FamilyName:Benton Sans
+StyleName:Book
+MenuName:BentonSans Book
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:BentonSans Book
+WritingScript:Roman
+OutlineFileName:/Users/Tyler/Desktop/Kaiser Permanente Business Case/KP Presentation/Document fonts/BentonSans-Book_sOT.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:126988
+FileModTime:643024440
+NameArray:0,Mac,4,BentonSans Book
+NameArray:0,Win,1,BentonSans Book
+NameArray:0,Win,16,Benton Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-Medium
+FamilyName:Benton Sans
+StyleName:Medium
+MenuName:BentonSans Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:BentonSans Medium
+WritingScript:Roman
+OutlineFileName:/Users/Tyler/Desktop/Kaiser Permanente Business Case/KP Presentation/Document fonts/BentonSans-Medium_sOT.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:130248
+FileModTime:643024440
+NameArray:0,Mac,4,BentonSans Medium
+NameArray:0,Win,1,BentonSans Medium
+NameArray:0,Win,16,Benton Sans
+%EndFont
+

@@ -1,0 +1,21 @@
+-- Media Providers
+
+-- RealGood Interactive Media Inc.
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE media_provider_name = 'RealGood Interactive Media Inc.'
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE media_provider_name = 'RealGood Interactive Media Inc.'
+
+-- Critical Point Social Media Agency
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2019", SUM(invoice_amount) AS "Total Invoice Amount 2019"
+FROM Data_2019_Invoices
+WHERE media_provider_name = 'Critical Point Social Media Agency'
+
+SELECT SUM(invoiced_clicks) AS "Total Clicks 2020", SUM(invoice_amount) AS "Total Invoice Amount 2020"
+FROM Data_2020_Invoices
+WHERE media_provider_name = 'Critical Point Social Media Agency'
